@@ -100,7 +100,6 @@ Unauthorized session escalation
 
 Protocol Sequence Diagram
 ASCII Version
-text
 User                SAPS Server              Secondary Channel
  |                       |                           |
  |--- Primary Login ---->|                           |
@@ -115,6 +114,7 @@ User                SAPS Server              Secondary Channel
  |        Validate SAPS Code (Dual Channel)          |
  |                       |                           |
  |<------ Authentication Success --------------------|
+
  
  sequenceDiagram
     participant User
