@@ -35,3 +35,20 @@ SAPS blocks:
 
 ## Patent Status
 Patent Pending — CA 3301766
+
+```text
+User                SAPS Server              Secondary Channel
+ |                       |                           |
+ |--- Primary Login ---->|                           |
+ |                       |                           |
+ |        Validate Primary Credential                |
+ |                       |                           |
+ |<-- Request SAPS Code -|                           |
+ |                       |--- Generate SAPS Code ----|
+ |                       |                           |
+ |--- Enter SAPS Code ---|                           |
+ |                       |                           |
+ |        Validate SAPS Code (Dual Channel)          |
+ |                       |                           |
+ |<------ Authentication Success --------------------|
+```
