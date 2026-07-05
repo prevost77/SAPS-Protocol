@@ -140,7 +140,6 @@ v4 — IAM integrations (Auth0, Okta, Azure AD)
 
 v5 — Enterprise deployment patterns
 
-
 License
 Copyright (c) 2026 SAPS Technologies.
 All rights reserved.
