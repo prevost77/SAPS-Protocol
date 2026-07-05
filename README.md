@@ -1,5 +1,6 @@
 # SAPS — Secondary Authentication Password System
-Patent Pending — CA 3301766
+Patent Pending — CA 3301766  
+Website: https://sapstech.ca
 
 ## Overview
 SAPS is a post-password authentication protocol designed to eliminate MFA fatigue, credential replay, and push bombing attacks.
